@@ -11,17 +11,34 @@ A package can have multiple sub-packages and modules, and each module and sub-pa
 The module is initialized when first imported into a program, whereas the package is initialized when one of its modules is imported.
 A package is installed using the import keyword followed by the package name, and you can access the module and sub-packages within the package name using dot notation. In contrast, the module can be directly installed using the import keyword followed by the module name
 
-#### Example
+##### Example
 This is how a sample module directorly looks like.
-    package
+    package  
+        
+        
         sub_package_1
+            
+            
             --->__init__.py
+            
+            
             --->module_one.py
+            
+            
             --->module_two.py
+            
+            
             --->module_three.py
+        
+        
         sub_package_2
+            
+            
             --->__init__.py
+            
             --->module_a.py
+            
             --->module_b.py
+            
             --->module_c.py
 
